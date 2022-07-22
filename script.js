@@ -31,7 +31,7 @@ function displayPhotos() {
          });
       // Create img for photo
       const img = document.createElement('img');
-      setAttributes(item,
+      setAttributes(img,
          {
             src: photo.urls.regular,
             alt: photo.alt_description,
